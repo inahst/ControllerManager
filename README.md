@@ -7,7 +7,7 @@ which can be queried by [controller].isConnected().
 
 Calls to buttons are formatted as follows:
 
-[controller].ButtonPressed(Buttons.LeftShoulder)
+            [controller].ButtonPressed(Buttons.LeftShoulder)
 
             .ButtonReleased(Buttons.LeftShoulder)
             
@@ -16,8 +16,8 @@ Calls to buttons are formatted as follows:
              
 Calls to thumbsticks are:
 
-[controller].GetStick(Sticks.Left)
+            [controller].GetStick(Sticks.Left)
 
 And Triggers are
 
-[controller].GetTrigger(Triggers.Left)
+            [controller].GetTrigger(Triggers.Left)

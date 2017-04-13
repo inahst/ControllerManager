@@ -26,3 +26,7 @@ Calls to thumbsticks are:
 And Triggers are
 
             [controller].GetTrigger(Triggers.Left)
+
+If at any point you want a script to release ownership of a controller, you call
+
+            [ControllerManager].ReleaseController(int controllerIndex)

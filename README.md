@@ -8,7 +8,9 @@ which can be queried by [controller].isConnected().
 Calls to buttons are formatted as follows:
 
 [controller].ButtonPressed(Buttons.LeftShoulder)
+
             .ButtonReleased(Buttons.LeftShoulder)
+            
             .Button(Buttons.LeftShoulder)
             
              
